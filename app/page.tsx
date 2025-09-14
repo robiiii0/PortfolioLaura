@@ -60,19 +60,18 @@ export default function Home() {
   const posts = [
     {
       id: 1,
-      title: "Taux de conversion multiplié par 2",
+      title: "Démarrage de mon activité instagram",
       href: "#",
       description:
-        "Grâce à l'accompagnement de Laura, nous avons doublé notre taux de conversion en quelques mois. Sa stratégie et son suivi ont été déterminants pour notre croissance.",
-      date: "16 mars 2020",
-      datetime: "2020-03-16",
-      category: { title: "Marketing", href: "#" },
+        "Laura est une Community manager de qualité ! Elle m’a bien accompagné au démarrage de mon compte Instagram , a été à l’écoute de mes souhaits ( et je suis très exigeante ) , a mis tout en œuvre pour que ce compte soit le reflet de ce que je souhaitais montrer à mes clients et prospects.Elle donne des conseils pertinents pour créer une communauté en lien avec notre métier. Si vous avez besoin d’un coup de boost au démarrage de votre activité , n'hésitez pas à la contacter !.",
+      date: "16 mars 2025",
+      datetime: "2025-03-16",
+      category: { title: "Marketing", href: "Posts" },
       author: {
-        name: "Michael Foster",
-        role: "Co-fondateur / CTO",
+        name: "Florence Peillon",
+        role: "Architecte d'intérieur",
         href: "#",
-        imageUrl:
-          "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+        imageUrl: "/temoignages/florence.png",
       },
     },
     {
@@ -288,16 +287,19 @@ export default function Home() {
                 className="space-y-6 text-lg md:text-xl leading-relaxed text-gray-700 text-justify tracking-tight"
               >
                 <p>
-                  Passionnée par la création de communautés engagées et
-                  authentiques, je mets mon expertise au service
-                  d&apos;organisations qui souhaitent développer des relations
-                  durables avec leurs membres.
+                  Passionnée par la communication digitale et la création de
+                  contenus authentiques, j&apos;accompagne les marques et
+                  entreprises dans le développement de leur présence en ligne.
+                  Community manager freelance, j&apos;ai déjà collaboré avec des
+                  structures variées (boutiques locales, hébergements
+                  touristiques, artisans, prestataires de services…) afin de
+                  bâtir une image cohérente, d’attirer de nouveaux clients et de
+                  fidéliser une communauté engagée.
                 </p>
                 <p>
-                  Avec plus de 8 ans d&apos;expérience dans la gestion de
-                  communautés en ligne et hors ligne, j&apos;ai accompagné des
-                  startups, des entreprises établies et des organisations à but
-                  non lucratif dans la construction de communautés florissantes.
+                  Mon objectif : donner de la visibilité à chaque projet en
+                  créant une stratégie sur-mesure, qui reflète son univers et
+                  ses valeurs.
                 </p>
               </motion.div>
             </div>
@@ -356,10 +358,10 @@ export default function Home() {
                   className="w-full aspect-[4/3] rounded-2xl shadow-xl overflow-hidden bg-gray-200"
                 >
                   <Image
-                    src="/monapproche/IMG_2895.jpeg"
+                    src="/laura/image3.jpg"
                     alt="Laura with community members"
                     fill
-                    className="object-cover rounded-2xl"
+                    className="object-cover object-[0%_25%] rounded-2xl"
                     sizes="(min-width: 1024px) 50vw, 100vw"
                   />
                 </motion.div>
@@ -454,10 +456,10 @@ export default function Home() {
                   <div className="@container flex flex-1 items-center justify-center max-lg:py-6 lg:pb-2">
                     <div className="relative w-11/12 h-full min-h-[152px]">
                       <Image
-                        src="/resultats/DSC02754.jpeg"
+                        src="/resultats/DSC02777.jpg"
                         alt="Ambition"
                         fill
-                        className="object-cover object-[0%_20%] rounded-t-2xl mt-4"
+                        className="object-cover items-center object-[0%_60%] rounded-t-2xl mt-4"
                         sizes="(min-width: 1024px) 40vw, 90vw"
                       />
                     </div>
@@ -466,10 +468,10 @@ export default function Home() {
                 <div className="pointer-events-none absolute inset-px rounded-lg shadow-sm outline outline-black/5" />
               </div>
               <div className="relative lg:row-span-2">
-                <div className="absolute inset-px rounded-lg bg-white max-lg:rounded-b-4xl lg:rounded-r-4xl" />
-                <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] max-lg:rounded-b-[calc(2rem+1px)] lg:rounded-r-[calc(2rem+1px)]">
+                <div className="absolute inset-px rounded-lg bg-white lg:rounded-l-4xl" />
+                <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] lg:rounded-l-[calc(2rem+1px)]">
                   <div className="px-8 pt-8 pb-3 sm:px-10 sm:pt-10 sm:pb-0">
-                    <p className="mt-2 text-lg font-bold tracking-tight text-gray-950 max-lg:text-center">
+                    <p className="mt-2 text-lg tracking-tight text-gray-950 font-bold max-lg:text-center">
                       Adaptabilité
                     </p>
                     <p className="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">
@@ -479,19 +481,19 @@ export default function Home() {
                     </p>
                   </div>
                   <div className="@container relative min-h-120 w-full grow max-lg:mx-auto max-lg:max-w-sm">
-                    <div className="absolute top-10 right-0 bottom-0 left-10 overflow-hidden  rounded-tl-[12cqw] border-x-[3cqw] border-t-[3cqw] border-white bg-gray-900 shadow-2xl">
+                    <div className="absolute inset-x-10 top-10 bottom-0 overflow-hidden border-x-[3cqw] border-t-[3cqw] border-gray-300 rounded-t-[12cqw] shadow-2xl">
                       <video
                         src="resultats/IMG_9185.mov"
                         autoPlay
                         muted
                         loop
                         playsInline
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-cover "
                       ></video>
                     </div>
                   </div>
                 </div>
-                <div className="pointer-events-none absolute inset-px rounded-lg shadow-sm outline outline-black/5 max-lg:rounded-b-4xl lg:rounded-r-4xl" />
+                <div className="pointer-events-none absolute inset-px rounded-lg shadow-sm outline outline-black/5 lg:rounded-l-4xl" />
               </div>
             </div>
           </div>
@@ -726,7 +728,7 @@ export default function Home() {
                         {post.title}
                       </p>
                     </h3>
-                    <p className="mt-5 line-clamp-3 text-sm/6 text-gray-600">
+                    <p className="mt-5 text-justify text-sm/6 text-gray-600">
                       {post.description}
                     </p>
                   </div>

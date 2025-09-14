@@ -9,7 +9,9 @@ function MediaCard({ item }: { item: MediaItem }) {
   return (
     <div
       ref={ref}
-      className={`relative w-full ${item.aspect ?? "aspect-[4/3]"} overflow-hidden rounded-2xl shadow-lg ring-1 ring-gray-200 bg-gray-100`}
+      className={`relative w-full ${
+        item.aspect ?? "aspect-[4/3]"
+      } overflow-hidden rounded-2xl shadow-lg ring-1 ring-gray-200 bg-gray-100`}
     >
       {item.type === "video" ? (
         inView ? (
@@ -73,7 +75,6 @@ const mediaItems: MediaItem[] = [
     alt: "Mon approche 1657",
     aspect: "aspect-square",
   },
-  { type: "video", src: "/montravail/video8.mp4", aspect: "aspect-square" },
 
   // Images from /public/laura
   {
@@ -197,7 +198,6 @@ const mediaItems: MediaItem[] = [
   },
   // Videos from /public/montravail
   { type: "video", src: "/montravail/video1.mov", aspect: "aspect-[4/3]" },
-  { type: "video", src: "/montravail/hometour.mp4", aspect: "aspect-square" },
   {
     type: "video",
     src: "/montravail/laser_VF_vid.mp4",
