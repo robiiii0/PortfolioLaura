@@ -327,15 +327,16 @@ export default function Home() {
                 className="space-y-6 text-lg md:text-xl leading-relaxed text-gray-700 text-justify tracking-tight"
               >
                 <p>
-                  Mon approche combine stratégie, créativité et authenticité
-                  pour créer des espaces où chaque membre se sent valorisé et
-                  connecté.
+                  Je mise avant tout sur l&apos;authenticité et la proximité. Chaque
+                  projet est unique : j&apos;écoute attentivement les besoins de mes
+                  clients pour créer une stratégie personnalisée et alignée avec
+                  leurs valeurs.
                 </p>
                 <p>
-                  Je crois en la puissance des relations humaines authentiques
-                  et m&apos;efforce de créer des environnements où la
-                  collaboration et l&apos;échange peuvent s&apos;épanouir
-                  naturellement.
+                  J&apos;aime travailler dans la simplicité, avec une communication
+                  transparente et des résultats concrets. Mon objectif est de
+                  transformer les réseaux sociaux en de véritables leviers de
+                  croissance, tout en gardant une touche humaine et créative.
                 </p>
               </motion.div>
             </div>
